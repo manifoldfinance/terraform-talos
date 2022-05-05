@@ -1,0 +1,57 @@
+# top-most EditorConfig file
+root = true
+
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{tf,tfvars}]
+indent_size = 4
+indent_style = space
+
+[*.md]
+max_line_length = 0
+trim_trailing_whitespace = false
+
+# Tab indentation (no size specified)
+[Makefile]
+tab_width = 2
+indent_style = tab
+
+[COMMIT_EDITMSG]
+max_line_length = 0
+
+# Shell
+# https://google.github.io/styleguide/shell.xml#Indentation
+[*.{bash,sh,zsh}]
+indent_size = 2
+indent_style = space
+
+# confg + cfg
+[*.{conf,cfg}]
+charset                     = UTF-8
+end_of_line                 = LF
+indent_size                 = 4
+indent_style                = tab
+insert_final_newline        = true
+tab_width                   = 4
+trim_trailing_whitespace    = true
+
+# Match diffs, avoid to trim trailing whitespace
+[*.{diff,patch}]
+trim_trailing_whitespace = false
+
+
+# Ignore fixtures and vendored files
+[{dist,artifacts,vendor,test/fixtures}/**]
+charset = unset
+end_of_line = unset
+indent_size = unset
+indent_style = unset
+insert_final_newline = unset
+trim_trailing_spaces = unset

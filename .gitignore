@@ -1,0 +1,12 @@
+# -*- mode: gitignore; -*-
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+.env
+/**/build
+.DS_Store
+node_modules
