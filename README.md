@@ -5,7 +5,10 @@ license: Apache-2.0/MIT
 release: latest
 ---
 
-# Terraform: Talos
+# [Terraform Talos](https://www.talos.dev/)
+
+
+[![Terraform](https://github.com/manifoldfinance/terraform-talos/actions/workflows/terraform.yml/badge.svg)](https://github.com/manifoldfinance/terraform-talos/actions/workflows/terraform.yml)
 
 
 ## Overview
